@@ -13,7 +13,8 @@
         "silverstripe/admin": "^2.0"
     },
     "require-dev": {
-        "silverstripe/recipe-testing": "^3"
+        "silverstripe/recipe-testing": "^3",
+        "phpstan/phpstan": "^1.0"
     },
     "autoload": {
         "psr-4": {

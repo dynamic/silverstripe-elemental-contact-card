@@ -21,7 +21,7 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "Dynamic\\Elements\\ContactCard\\Elements": "src/",
+            "Dynamic\\Elements\\ContactCard\\Elements\\": "src/",
             "Dynamic\\Elements\\ContactCard\\Elements\\Tests\\": "tests/"
         }
     },

@@ -1,11 +1,12 @@
 {
-    "name": "silverstripe-module/skeleton",
-    "description": "A skeleton for Silverstripe CMS modules.",
+    "name": "dynamic/silverstripe-elemental-contact-card",
+    "description": "A simple Bootstrap-style Contact card for Silverstripe Elemental. Ideal for use with Elemental Grid.",
     "license": "BSD-3-Clause",
     "type": "silverstripe-vendormodule",
     "keywords": [
         "silverstripe",
-        "CMS"
+        "CMS",
+        "elemental"
     ],
     "require": {
         "dynamic/silverstripe-elemental-card": "^2.0",
@@ -20,16 +21,13 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "SilverStripeModule\\Skeleton\\": "src/",
-            "SilverStripeModule\\Skeleton\\Tests\\": "tests/php/"
+            "Dynamic\\Elements\\ContactCard\\Elements": "src/",
+            "Dynamic\\Elements\\ContactCard\\Elements\\Tests\\": "tests/"
         }
     },
     "extra": {
         "branch-alias": {
             "dev-master": "1.x-dev"
-        },
-        "expose": [
-            "client/dist"
-        ]
+        }
     }
 }
